@@ -2,6 +2,7 @@ import 'package:flutter_clean_archi_hive/features/travel/data/model/trip_model.d
 import 'package:hive_flutter/hive_flutter.dart';
 
 class TripLocalDataSource {
+  
   final Box<TripModel> tripBox;
 
   TripLocalDataSource(this.tripBox);
